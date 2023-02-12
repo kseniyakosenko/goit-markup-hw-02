@@ -1,0 +1,107 @@
+/* 
+COLORS
+ФОН
+Фон шапкі #FFFFFF
+Основной фон светлый  #E5E5E5 
+Фон героя #2E2F42
+Фон секции НАША КОМАНДА #F4F4FD
+Фон футера #2E2F42
+
+Цвета шрифтов
+Цвет веб #4D5AE5
+Цвет студио #2E2F42
+
+Цвет шапки и заголовков #2E2F42
+Цвет основного текста абзацев #434455
+
+Цвет текста в футере #E7E9FC
+
+*/
+.list {
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #434455;
+}
+
+/* Логотип */
+.logo {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.logo-firstcolor {
+  color: #4d5ae5;
+}
+.logo-secondcolor {
+  color: #f4f4fd;
+}
+
+/* Site-nav навигация */
+.site-nav a {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.contacts a {
+  color: #434455;
+  text-decoration: none;
+}
+/* Герой */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+/* Преымущества */
+
+/* стиль для H3 */
+.item-title {
+  color: #2e2f42;
+}
+/* стіль для p */
+.section-item a {
+  color: #434455;
+}
+/* Что мы делаем секция */
+
+/* стиль для H2 */
+.section-title {
+  color: #2e2f42;
+}
+
+/* Наша команда секция */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+/* ФУТЕР */
+.page-footer {
+  background-color: #2e2f42;
+  color: #e7e9fc;
+}
+
+/* Страница ПОРТФОЛИО + унаследование своіств цвета для p которые лежат в ссылках s*/
+.list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Фильтры для портфолио */
+/* КНОПКИ*/
+
+.filter {
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+}
+
+.filter:hover,
+:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
